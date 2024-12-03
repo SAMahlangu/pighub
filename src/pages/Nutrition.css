@@ -140,3 +140,23 @@
 .scroll-up-button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+
+.broiler-images {
+    display: flex;             /* Enable flexbox */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    height: 100vh;            /* Make it take the full viewport height */
+}
+
+.image-container {
+    display: flex;             /* Enable flexbox for the image container */
+    justify-content: center;   /* Center the image horizontally */
+    align-items: center;       /* Center the image vertically */
+}
+
+.broiler-structure-image {
+    max-width: 100%;          /* Make the image responsive */
+    height: auto; 
+    justify-content: center;   /* Center the image horizontally */
+    align-items: center;             /* Maintain aspect ratio */
+}

@@ -7,10 +7,11 @@ const PoultryFeedNutrition = () => {
         <div className="poultry-feed-container">
             <h1 className="poultry-feed-title">Poultry Feed and Nutrition Requirements</h1>
             <div className="broiler-images">   
-            <div><img src={nutritionImage} alt="Concrete Mason Structure" className="broiler-structure-image" />
-            
-                    </div>
-            </div>
+    <div className="image-container">
+        <img src={nutritionImage} alt="Concrete Mason Structure" className="broiler-structure-image" />
+    </div>
+</div>
+
             <div className="poultry-feed-section">
                 <h2>The Basics of Chicken Nutrition</h2>
                 <ul className="poultry-feed-list">
