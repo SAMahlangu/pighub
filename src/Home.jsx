@@ -1,7 +1,8 @@
 import React from 'react';
-import poultryFarmAnimation from './assets/chicken.jpg'; // Example animation image
+import poultryFarmAnimation1 from './assets/Dashboard_Pig.jpg'; // Example animation image 1
+import poultryFarmAnimation2 from './assets/Dashboard_Pig.jpg'; // Example animation image 2
+import poultryFarmAnimation3 from './assets/Dashboard_Pig.jpg'; // Example animation image 3
 import './Home.css';
-
 
 function Home() {
   return (
@@ -12,8 +13,18 @@ function Home() {
 
       <div className="animated-images">
         <img 
-          src={poultryFarmAnimation} 
-          alt="Animated Poultry Farm" 
+          src={poultryFarmAnimation1} 
+          alt="Animated Poultry Farm 1" 
+          className="animated-poultry-farm"
+        />
+        <img 
+          src={poultryFarmAnimation2} 
+          alt="Animated Poultry Farm 2" 
+          className="animated-poultry-farm"
+        />
+        <img 
+          src={poultryFarmAnimation3} 
+          alt="Animated Poultry Farm 3" 
           className="animated-poultry-farm"
         />
       </div>

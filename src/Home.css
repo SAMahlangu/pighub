@@ -10,3 +10,22 @@
     max-height: 100%;
   }
   
+/* Home.css */
+
+.main-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main-title h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Style the images inside the slider */
+.animated-images .slick-slide img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;  /* Optional: adjust max width of images */
+  margin: 0 auto;
+}

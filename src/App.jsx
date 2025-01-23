@@ -8,6 +8,9 @@ import BroilerPage from './pages/Broiler.jsx';
 // import LayerPage from './pages/Layer.jsx';
 import NutritionPage from './pages/Nutrition.jsx';
 // import RecipesPage from './pages/Recipes.jsx';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 

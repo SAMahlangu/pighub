@@ -16,7 +16,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
     <aside id="sidebar" className={openSidebarToggle ? 'sidebar-responsive' : ''}>
       <div className="sidebar-title">
         <div className="sidebar-brand">
-          <BsCart3 className="icon_header" /> POULTRY HUB
+          <BsCart3 className="icon_header" /> PIG FARMING
         </div>
         <span className="icon close_icon" onClick={OpenSidebar}>
           X
@@ -32,10 +32,10 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         </li>
         <li className="sidebar-list-item">
           <Link to="/broiler">
-            <BsFillArchiveFill className="icon" /> Broiler
+            <BsFillArchiveFill className="icon" /> Production Guide
           </Link>
         </li>
-        <li className="sidebar-list-item">
+        {/* <li className="sidebar-list-item">
           <Link to="/nutrition">
             <BsPeopleFill className="icon" /> Nutrition
           </Link>
@@ -50,7 +50,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
           <Link to="/recipes">
             <BsListCheck className="icon" /> Recipes
           </Link>
-        </li>
+        </li> */}
         {/* If not needed, you can uncomment when you have these routes */}
         {/* 
         <li className="sidebar-list-item">
