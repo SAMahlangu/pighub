@@ -76,30 +76,73 @@ function BroilerPage() {
 
       {/* The Introduction section */}
       <div className="broiler-section" ref={introductionRef}>
-        <h2>Introduction</h2>
-          <p><strong>Pigs Overview</strong></p>
-          <p>
-            Pigs, also known as swine or hogs, are intelligent, social mammals belonging to a scientific family called <i>Sus Scrofa</i>. 
-            Originating from Africa, Europe, and Asia, pigs have distinctive physical characteristics including a special snout, curly tail, 
-            short legs, and varied sizes ranging from 50 to 600 kg and colors such as white, black, brown, and pink. 
-            With over 100 breeds, pigs serve multiple purposes. They are raised for meat (pork), used for leather, medicine, 
-            and are popular farm animals or even kept as pets.
-          </p>
+  <h2>1. Introduction to Pig Production in South Africa</h2>
+  <p>
+    Pigs, also known as swine or hogs, are intelligent, social mammals belonging to a scientific family called <i>Sus Scrofa</i>. Originating from Africa, Europe, and Asia, pigs have distinctive physical characteristics, including a special snout, curly tail, short legs, and varied sizes ranging from 50 to 600 kg and colors such as white, black, brown, and pink. With over 100 breeds, pigs serve multiple purposes: they are raised for meat, and pork is used for leather, medicine, and are popular farm animals or even kept as pets. Pigs are a versatile livestock choice, offering a reliable source of cash income through the sale of pigs and pork products.
+  </p>
+  <p>
+    Pigs can consume a wide range of feeds, including agricultural by-products, making them more cost-effective to raise compared to other livestock. Pigs reproduce rapidly, with sows capable of giving birth to large litters, often twice a year. This ensures a continuous cycle of production and income. This financial stability can help meet daily expenses and improve the quality of life for farming families. Beyond income generation, pigs play a crucial role in enhancing food security by providing a consistent supply of nutritious meat for household consumption.
+  </p>
+  <p>
+    Moreover, the by-products of pig farming, such as manure, contribute significantly to sustainable agriculture. Hence, pig farming can be integrated with crop farming, where pig manure is used as fertilizer, enhancing soil fertility and contributing to sustainable agriculture practices. Pig manure is an excellent organic fertilizer that improves soil fertility, leading to better crop yields and more resilient farming systems.
+  </p>
 
-          <p><strong>Starting a Pig Farm</strong></p>
-          <p>
-            Starting a pig farm involves careful planning and consideration of several key factors to ensure the success 
-            and sustainability of the venture:
-          </p>
-          <ul>
-            <li><strong>Location and Farm Site:</strong> Ensure the farm is near a road and easily accessible.</li>
-            <li><strong>Breed Selection:</strong> Choose breeds suitable for your local conditions.</li>
-            <li><strong>Feeding and Nutrition:</strong> Supply high-quality feed with at least the required crude protein to meet the 
-                nutritional needs of pigs at different stages of growth.</li>
-            <li><strong>Veterinary Care:</strong> Access to veterinary care is important for the health and well-being of the pigs.</li>
-            <li><strong>Housing and Facilities:</strong> Build pens that provide enough space and proper shelter for the pigs.</li>
-          </ul>
-      </div>
+  <h3>Essential Factors for Starting a Successful Pig Farm</h3>
+  <p>
+    Starting a pig farm involves careful planning and consideration of several key factors to ensure the success and sustainability of the venture. Here are some important factors to consider:
+  </p>
+  <ul>
+    <li>
+      <strong>Location and Farm Site:</strong> Ensure the farm is accessible by road for the transportation of pigs, feed, and other supplies. Check local zoning laws and regulations regarding pig farming to ensure compliance. A reliable and clean water source is essential for the pigs' drinking, cleaning, and cooling needs. Consider the local climate and how it may affect pig health and comfort. Proper ventilation and shelter are crucial.
+    </li>
+    <li>
+      <strong>Capital Investment:</strong> Assess the initial costs for purchasing land, constructing pig pens, buying piglets, feed, and other necessary equipment. Consider operating capital for expenses, such as feed, veterinary care, labor, utilities, and maintenance. Determine how you will finance the farm, either through personal savings, loans, or grants.
+    </li>
+    <li>
+      <strong>Breed Selection:</strong> Choose breeds that are in demand in your region, considering factors like meat quality, growth rate, and adaptability to local conditions, and decide whether you want to focus on breeding, fattening, or a combination of both, and select breeds accordingly.
+    </li>
+    <li>
+      <strong>Housing and Facilities:</strong> Construct pens that provide adequate space, ventilation, and protection from extreme weather. Design the farm to prevent bird or rat intrusion and minimize the risk of disease transmission, including proper sanitation facilities and controlled access.
+    </li>
+    <li>
+      <strong>Feeding and Nutrition:</strong> Ensure a consistent supply of high-quality feed with at least 18% crude protein to meet the nutritional needs of the pigs at different stages of growth. Consider the cost of feed, as it is one of the largest expenses in pig farming.
+    </li>
+    <li>
+      <strong>Health Management:</strong> Access to veterinary care is important. Establish a relationship with a qualified veterinarian for regular health checks, vaccinations, and treatment of diseases. Implement strict hygiene and biosecurity measures to prevent the spread of diseases.
+    </li>
+    <li>
+      <strong>Labor and Expertise:</strong> Hire or train workers who are knowledgeable in pig husbandry, including feeding, breeding, and health care. Develop strong farm management skills, including record-keeping, budgeting, and problem-solving.
+    </li>
+    <li>
+      <strong>Market Research:</strong> Identify potential buyers for your pigs, whether they are local markets, butcheries, processors, or retailers. Understand the market price trends and how they may affect your profitability.
+    </li>
+    <li>
+      <strong>Environmental Considerations:</strong> Develop a plan for managing pig waste to avoid environmental pollution and comply with regulations. Consider sustainable farming practices that minimize environmental impact and promote long-term farm viability.
+    </li>
+    <li>
+      <strong>Legal and Regulatory Compliance:</strong> Obtain any necessary permits or licenses required to operate a pig farm in your area. Adhere to animal welfare regulations and best practices to ensure the humane treatment of pigs.
+    </li>
+    <li>
+      <strong>Risk Management:</strong> Consider insuring the farm against risks such as disease outbreaks, natural disasters, and theft. Develop a plan to handle unforeseen challenges, such as market downturns or feed shortages.
+    </li>
+  </ul>
+
+  <p>
+    A comprehensive business plan is a crucial tool that integrates these factors, ensuring that each aspect of the farm is well-thought-out and aligned with overall goals. By developing a comprehensive business plan, you ensure that all aspects of your farm are well-planned and aligned with your long-term objectives, setting a solid foundation for success.
+  </p>
+
+  <h3>Challenges in Pig Farming</h3>
+  <p>
+    Pigs are susceptible to a range of diseases, such as African Swine Fever, Porcine Reproductive and Respiratory Syndrome (PRRS), and swine flu. These diseases can spread rapidly and cause significant losses. Maintaining strict biosecurity protocols is essential to prevent disease outbreaks. This includes controlling farm access, proper sanitation, and regular health checks. Feed accounts for a major portion of production costs. Fluctuations in the prices of feed ingredients like maize, soybeans, and other grains can impact profitability.
+  </p>
+  <p>
+    Pig farmers can increase profitability by processing pork into a variety of products, such as sausages, bacon, ham, and others. Value-added products often fetch higher prices in the market. Developing a strong brand and investing in attractive packaging can help farmers stand out in the market and attract premium customers. There is a growing demand for organic and free-range pork, which can command higher prices. Farmers who can meet the standards for organic certification can tap into this lucrative market. A farmer can decide to raise specialty pig breeds such as Duroc for their unique flavors or characteristics to attract gourmet markets, farmers, and consumers.
+  </p>
+  <p>
+    Beginner farmers may face challenges in accessing lucrative markets, particularly if they lack the resources to meet stringent quality standards.
+  </p>
+</div>
+
 
       {/* The Pig Production System section */}
       <div className="broiler-section" ref={infrastructureRef}>
