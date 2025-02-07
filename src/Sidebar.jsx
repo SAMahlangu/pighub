@@ -30,9 +30,49 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
             <BsGrid1X2Fill className="icon" /> Dashboard
           </Link>
         </li>
-        <li className="sidebar-list-item">
-          <Link to="/broiler">
-            <BsFillArchiveFill className="icon" /> Production Guide
+        <li className="sidebar-list-item">        
+          <Link to="/introduction">
+            <BsFillArchiveFill className="icon" /> Introduction
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/housing">
+            <BsFillArchiveFill className="icon" /> Housing
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/systems">
+            <BsFillArchiveFill className="icon" /> Systems
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/equipment">
+            <BsFillArchiveFill className="icon" /> Equipment
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/breeding">
+            <BsFillArchiveFill className="icon" /> Breeding
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/health">
+            <BsFillArchiveFill className="icon" /> Health
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/Feeding">
+            <BsFillArchiveFill className="icon" /> Feeding
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/sales">
+            <BsFillArchiveFill className="icon" /> Sales
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/recipes">
+            <BsFillArchiveFill className="icon" /> Recipes
           </Link>
         </li>
         {/* <li className="sidebar-list-item">

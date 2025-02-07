@@ -1,0 +1,110 @@
+/* General container for the housing page */
+.housing-container {
+    padding: 20px;
+    width: 84vw;
+    height: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+/* Title of the Housing section */
+.housing-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* List of steps in the housing process */
+.housing-list {
+    list-style: decimal inside;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #555;
+    width: 90%;
+}
+
+/* Styling for each list item */
+.housing-list li {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.housing-list li:hover {
+    color: #007bff;
+}
+
+/* Sections with detailed content */
+.housing-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section title styles */
+.housing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Paragraph styling inside sections */
+.housing-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Strong text styling for emphasis */
+.housing-section strong {
+    color: #007bff;
+}
+
+/* Button to scroll back to the top */
+.scroll-up-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.scroll-up-button:hover {
+    background-color: #45a049;
+}
+
+/* Media queries for responsiveness on small screens */
+@media (max-width: 600px) {
+    .housing-title {
+        font-size: 2rem;
+    }
+
+    .housing-list {
+        font-size: 1.2rem;
+    }
+
+    .housing-section h2 {
+        font-size: 2rem;
+    }
+
+    .housing-section p {
+        font-size: 1rem;
+    }
+}

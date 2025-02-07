@@ -4,10 +4,12 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Home from './Home';
+import IntroductionPage from './pages/Introduction.jsx';
+import HousingPage from './pages/Housing.jsx';
 import BroilerPage from './pages/Broiler.jsx';
-// import LayerPage from './pages/Layer.jsx';
-import NutritionPage from './pages/Nutrition.jsx';
-// import RecipesPage from './pages/Recipes.jsx';
+//import LayerPage from './pages/Layer.jsx';
+//import NutritionPage from './pages/Nutrition.jsx';
+ //import RecipesPage from './pages/Recipes.jsx';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -31,9 +33,11 @@ function App() {
         {/* Define routes */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/introduction" element={<IntroductionPage />} />
+          <Route path="/housing" element={<HousingPage />} />
           <Route path="/broiler" element={<BroilerPage />} />
-          <Route path="/nutrition" element={<NutritionPage />} />
-          {/* <Route path="/layer" element={<LayerPage />} />
+          {/*<Route path="/nutrition" element={<NutritionPage />} />
+           <Route path="/layer" element={<LayerPage />} />
           
           <Route path="/recipes" element={<RecipesPage />} /> */}
         
