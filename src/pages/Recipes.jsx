@@ -32,12 +32,12 @@ function PorkRecipes() {
         {
             title: 'Examples of Value Addition in Pig Processing',
             content: [
-                'Fresh Meat: Pork cuts like chops, ribs, and tenderloins are sold fresh. Using **Modified Atmosphere Packaging (MAP)** with nitrogen and carbon dioxide helps maintain color and reduce microbial growth.',
-                'Curing and Smoking: Cuts like ham, bacon, and sausages can be cured using salt, sugar, and nitrates before being smoked. A locally built **smoking chamber** helps control costs and ensures high-quality results.',
+                'Fresh Meat: Pork cuts like chops, ribs, and tenderloins are sold fresh. Using Modified Atmosphere Packaging (MAP) with nitrogen and carbon dioxide helps maintain color and reduce microbial growth.',
+                'Curing and Smoking: Cuts like ham, bacon, and sausages can be cured using salt, sugar, and nitrates before being smoked. A locally built smoking chamber helps control costs and ensures high-quality results.',
                 'Sausages: Ground pork mixed with spices, fat, and preservatives is stuffed into casings. Types include fresh (Italian sausages), cooked (bologna, frankfurters), and smoked (kielbasa, Andouille).',
-                'Rendering: Animal by-products like fat and bones are converted into **lard, meat meal, and tallow** used in soaps, candles, and biodiesel production.',
+                'Rendering: Animal by-products like fat and bones are converted into lard, meat meal, and tallow used in soaps, candles, and biodiesel production.',
                 'Pork By-products: Intestines, liver, kidneys, and even pork skin can be used in food products, gelatin, animal feed, and more.',
-                'Packaging & Marketing: Branding, social media, food festivals, and attractive **packaging designs** help add value and increase product sales.'
+                'Packaging & Marketing: Branding, social media, food festivals, and attractive packaging designs help add value and increase product sales.'
             ]
         },
         {
