@@ -1,7 +1,7 @@
 /* General container for the housing page */
 .housing-container {
     padding: 20px;
-    width: 84vw;
+    width: 100vw;
     height: auto;
     background-color: #f9f9f9;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
