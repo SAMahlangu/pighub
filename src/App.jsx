@@ -6,10 +6,12 @@ import Sidebar from './Sidebar';
 import Home from './Home';
 import IntroductionPage from './pages/Introduction.jsx';
 import HousingPage from './pages/Housing.jsx';
-import BroilerPage from './pages/Broiler.jsx';
-//import LayerPage from './pages/Layer.jsx';
-//import NutritionPage from './pages/Nutrition.jsx';
- //import RecipesPage from './pages/Recipes.jsx';
+import SystemsPage from './pages/Systems.jsx';
+import RecipesPage from './pages/Recipes.jsx';
+import SalesPage from './pages/Sales.jsx';
+import HealthPage from './pages/Health.jsx';
+import BreedingPage from './pages/Breeding.jsx';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -35,11 +37,15 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/introduction" element={<IntroductionPage />} />
           <Route path="/housing" element={<HousingPage />} />
-          <Route path="/broiler" element={<BroilerPage />} />
+          <Route path="/systems" element={<SystemsPage />} />
+          <Route path="/sales" element={<SalesPage />} />
+          <Route path="/recipes" element={<RecipesPage />} />
+          <Route path="/breeding" element={<BreedingPage />} />
+          <Route path="/health" element={<HealthPage />} />
           {/*<Route path="/nutrition" element={<NutritionPage />} />
            <Route path="/layer" element={<LayerPage />} />
           
-          <Route path="/recipes" element={<RecipesPage />} /> */}
+           */}
         
         </Routes>
       </div>
@@ -48,3 +54,4 @@ function App() {
 }
 
 export default App;
+
