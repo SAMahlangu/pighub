@@ -1,7 +1,7 @@
 /* Styling for the Introduction page */
 .introduction-container {
     padding: 20px;
-    width: 85vw; /* Full viewport width */
+    width: 100vw; /* Full viewport width */
     height: auto; /* Change height to auto to allow for dynamic content height */
     background-color: #f9f9f9;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
