@@ -1,0 +1,143 @@
+/* General Styling for the Pig Farming Strategies Page */
+.pig-farming-strategies-container {
+    padding: 20px;
+    width: 82vw;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pig-farming-strategies-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pig-farming-strategies-container p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Scroll Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.navigation-buttons button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.navigation-buttons button:hover {
+    background-color: #e0482d;
+}
+
+/* Strategy Sections */
+.strategy-section {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.strategy-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.strategy-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Strategy Images */
+.strategy-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Subsection Headers */
+.strategy-section h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-top: 15px;
+}
+
+/* Lists */
+.strategy-section ul, .strategy-section ol {
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.strategy-section ul li, .strategy-section ol li {
+    margin-bottom: 10px;
+}
+
+/* Scroll to Top Button */
+.bottom-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottom-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+.bottom-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pig-farming-strategies-container h1 {
+        font-size: 2rem;
+    }
+
+    .strategy-section {
+        width: 95%;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+    }
+
+    .navigation-buttons button {
+        width: 100%;
+        padding: 12px;
+    }
+}

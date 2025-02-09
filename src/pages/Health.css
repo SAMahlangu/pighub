@@ -1,0 +1,158 @@
+/* General Styling for the Pig Health Page */
+.pig-health-container {
+    padding: 20px;
+    width: 81vw;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pig-health-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pig-health-container p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Scroll Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.navigation-buttons button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.navigation-buttons button:hover {
+    background-color: #e0482d;
+}
+
+/* Health Sections */
+.health-section {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.health-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.health-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Subsection Headers */
+.health-section h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-top: 15px;
+}
+
+/* Lists */
+.health-section ul, .health-section ol {
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.health-section ul li, .health-section ol li {
+    margin-bottom: 10px;
+}
+
+/* Table Styling for Diseases */
+.health-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.health-section th, .health-section td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.health-section th {
+    background-color: #f4f4f4;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.health-section td {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Scroll to Top Button */
+.bottom-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bottom-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+.bottom-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pig-health-container h1 {
+        font-size: 2rem;
+    }
+
+    .health-section {
+        width: 95%;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+    }
+
+    .navigation-buttons button {
+        width: 100%;
+        padding: 12px;
+    }
+}
