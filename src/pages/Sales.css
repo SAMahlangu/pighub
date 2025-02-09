@@ -1,7 +1,7 @@
 /* General Styling for the Pig Farming Strategies Page */
 .pig-farming-strategies-container {
     padding: 20px;
-    width: 82vw;
+    width: 100vw;
     background-color: #f9f9f9;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
