@@ -1,14 +1,15 @@
 /* General Styling for the Pig Breeding Page */
 .breeding-container {
     padding: 20px;
-    width: auto; /* Ensures a consistent width */
-    height: auto; /* Adjusts height dynamically */
+    width: 100vw; /* Full width */
+    height: auto; /* Ensures full page coverage */
     background-color: #f9f9f9;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto; /* Centers the container */
+    margin: 0 auto;
+    flex-grow: 1;
 }
 
 /* Page Title */
@@ -21,14 +22,16 @@
 
 /* Sections */
 .breeding-section {
-    width: 90%;
+    width: 90%; /* Responsive width */
     max-width: 800px;
+    min-width: 300px; /* Prevents it from getting too small */
     background: white;
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: left;
+    box-sizing: border-box; /* Ensures padding doesn’t break layout */
 }
 
 /* Section Headers */
@@ -102,28 +105,31 @@
 /* Image Styling */
 .breeding-image {
     width: 100%;
-    max-width: 600px; /* Prevents images from becoming larger than 600px */
+    max-width: 600px; /* Prevents images from getting too large */
     height: auto;
     margin: 20px 0;
     border-radius: 8px;
+    display: block;
 }
 
 /* Image Grid */
 .breeding-images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
     margin-top: 20px;
 }
 
 .breeding-image-container {
-    width: 48%;
+    width: 100%;
+    max-width: 600px;
     text-align: center;
 }
 
 .breeding-structure-image {
     width: 100%;
-    max-width: 600px; /* Prevents images from becoming larger than 600px */
+    max-width: 600px;
     height: auto;
 }
 
@@ -152,28 +158,60 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .breeding-container {
+        padding: 20px;
+        width: auto; /* Full width */
+        height: auto; /* Ensures full page coverage */
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        flex-grow: 1;
+    }
+
     .breeding-title {
         font-size: 2rem;
+        text-align: center;
+        padding: 10px;
     }
 
     .breeding-section {
-        width: 95%;
+        width: 100%; /* Make it fully responsive */
+        padding: 15px;
     }
 
     .breeding-buttons {
         flex-direction: column;
+        align-items: center; /* Center buttons */
     }
 
     .breeding-buttons button {
         width: 100%;
         padding: 12px;
+        font-size: 1rem;
+        text-align: center;
     }
 
     .breeding-section h2 {
         font-size: 2rem;
+        text-align: center;
     }
 
     .breeding-section p {
         font-size: 1rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .breeding-image,
+    .breeding-structure-image {
+        width: 100%; /* Ensure images are responsive */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Center images */
     }
 }
+
