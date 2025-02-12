@@ -59,28 +59,25 @@
     margin-bottom: 10px;
 }
 
-/* Buttons */
-.breeding-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 20px;
+.bottom-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
-.breeding-buttons button {
-    background-color: #ff5733;
+.bottom-buttons button {
+    background-color: #4CAF50; /* Customize the button style */
     color: white;
     border: none;
-    padding: 10px 15px;
-    font-size: 1rem;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s ease-in-out;
 }
 
-.breeding-buttons button:hover {
-    background-color: #e0482d;
+.bottom-buttons button:hover {
+    background-color: #45a049; /* Hover effect */
 }
 
 /* Tables */
