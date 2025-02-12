@@ -1,7 +1,7 @@
 /* General Styling for the Pig Breeding Page */
 .breeding-container {
     padding: 20px;
-    width: 100vw; /* Ensures a consistent width */
+    width: auto; /* Ensures a consistent width */
     height: auto; /* Adjusts height dynamically */
     background-color: #f9f9f9;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
