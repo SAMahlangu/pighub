@@ -139,9 +139,17 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .pig-health-container h1 {
-        font-size: 2rem;
-    }
+    .pig-health-container {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
 
     .health-section {
         width: 95%;
