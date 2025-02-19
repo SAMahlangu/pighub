@@ -45,11 +45,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
             <BsFillArchiveFill className="icon" /> Systems
           </Link>
         </li>
-        <li className="sidebar-list-item">        
-          <Link to="/equipment">
-            <BsFillArchiveFill className="icon" /> Equipment
-          </Link>
-        </li>
+        
         <li className="sidebar-list-item">        
           <Link to="/breeding">
             <BsFillArchiveFill className="icon" /> Breeding
@@ -60,11 +56,7 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
             <BsFillArchiveFill className="icon" /> Health
           </Link>
         </li>
-        <li className="sidebar-list-item">        
-          <Link to="/Feeding">
-            <BsFillArchiveFill className="icon" /> Feeding
-          </Link>
-        </li>
+        
         <li className="sidebar-list-item">        
           <Link to="/sales">
             <BsFillArchiveFill className="icon" /> Sales
@@ -78,6 +70,16 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         {/* <li className="sidebar-list-item">
           <Link to="/nutrition">
             <BsPeopleFill className="icon" /> Nutrition
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/equipment">
+            <BsFillArchiveFill className="icon" /> Equipment
+          </Link>
+        </li>
+        <li className="sidebar-list-item">        
+          <Link to="/Feeding">
+            <BsFillArchiveFill className="icon" /> Feeding
           </Link>
         </li>
         <li className="sidebar-list-item">
